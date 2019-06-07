@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-# flutter_json_to_forms_sample
+# Flutter Dynamic Forms
 
-A new Flutter application.
+Demonstração de biblioteca desenvolvida por mim para criação de formulários dinâmicos em Flutter a partir de um JSON.
+A library to create dynamic forms on flutter using JSON, made to use with WebAPI's
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 ## Getting Started
 
@@ -15,7 +17,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
-=======
-# Flutter-Dynamic-Forms
-A library to create dynamic forms on flutter using JSON, made to use with WebAPI's
->>>>>>> f851fb7dd1302abdea5be0508a6d1875a7e93290
