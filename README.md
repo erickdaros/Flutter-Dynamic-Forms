@@ -10,6 +10,46 @@ A library to create dynamic forms on flutter using JSON, made to use with WebAPI
 <p align="center">
   <img src="https://raw.githubusercontent.com/erickdaros/Flutter-Dynamic-Forms/master/sample.png" width="300"/>
 </p>
+
+
+###### JSON responsável por gerar o formulário acima:
+```javascript
+[
+    {
+      "type": "Input",
+      "id" : "252io5yu4i",
+      "title": "Assunto",
+      "style": {
+        "placeholder": "Campo",
+        "helperText" : "Capo de exemplo",
+        "helperTextColor": "#000000",
+        "requiredText" : "Campo obrigatório",
+        "minimumRequiredText" : "Minimo 10 caracteres"
+      },
+      "validation": {
+        "required" : true,
+        "minimumRequired" : 5,
+        "maxLength" : 10,
+      },
+    },
+    {
+      "type": "Input",
+      "id": "534ioytgrg",
+      "title": "Assunto 2",
+      "style": {
+        "placeholder": "Campo",
+        "helperText": "Capo de exemplo",
+        "helperTextColor": "#000000",
+        "requiredText": "Campo obrigatório",
+        "minimumRequiredText": "Minimo 8 caracteres"
+      },
+      "validation": {
+        "required": true,
+        "minimumRequired": 8,
+      }
+    }
+]
+```
   
 ## Getting Started  
   
